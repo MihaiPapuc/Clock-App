@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  background: url('../wallpaper/bridge.jpg');
+  background-size: cover;
+}
+body {
+  display: grid;
+  place-items: center center;
+  font-family: 'titillium_webregular';
+  text-align: center;
+  font-size: 10px;
+}
+
+.clock {
+  width: 250px;
+  height: 250px;
+  border-radius: 60px;
+  background-color: #365b63;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  margin-top: 20px;
+}
+#clock-design {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background: #ccc;
+  border-radius: 100%;
+}
+
+.line-seconds {
+  position: absolute;
+  height: 105px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  bottom: 105px;
+  top: 0px;
+  margin: auto;
+  background: #27c4e8;
+  transform: rotate(180deg);
+  transform-origin: 50% 100%;
+}
+.line-minutes {
+  position: absolute;
+  height: 105px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  bottom: 105px;
+  top: 0px;
+  margin: auto;
+  background: #acd4e3;
+  transform: rotate(180deg);
+  transform-origin: 50% 100%;
+}
+.line-hour {
+  position: absolute;
+  height: 105px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  bottom: 105px;
+  top: 0px;
+  margin: auto;
+  background: #acd4e3;
+  transform: rotate(90deg);
+  transform-origin: 50% 100%;
+}
